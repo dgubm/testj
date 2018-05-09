@@ -1,0 +1,26 @@
+{
+  "name": "testj",
+  "version": "1.0.0",
+  "description": "Cool project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgubm/testj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgubm/testj/issues"
+  },
+  "homepage": "https://github.com/dgubm/testj#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
