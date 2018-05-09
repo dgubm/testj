@@ -10,7 +10,7 @@ http.createServer(function(req, res) {
         res.write(file);
     }catch(err){
         if(err){
-            res.write("404 file not found");
+            res.write("404 file not found.");
         }
     }
     res.end();
